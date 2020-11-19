@@ -1,0 +1,220 @@
+/*
+--------------
+FONTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+/*
+--------------
+GENERAL FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*
+--------------
+TYPOGRAPHY
+--------------
+*/
+
+section {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 900;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: 900;
+	line-height: 1.4em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+	line-height: 2em;
+}
+
+hr {
+    height: 1px;
+    border-top: 3px solid #FF9C94;
+    margin: 0 auto;
+    width: 5em;
+}
+
+
+/* LINKS */
+
+/* unvisited, visited, hover and selected */
+a:link,
+a:visited,
+a:active {
+  color: #A9A9A9;
+}
+
+.menu-items:hover {
+  color: #E3CA96;
+}
+
+
+/*
+--------------
+BUTTONS
+--------------
+*/
+
+
+
+
+/*
+---------------------------------------------
+-------------- SECTION STYLING --------------
+---------------------------------------------
+*/
+
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+#nav-bar-left,
+#nav-bar-spacer,
+#nav-bar-right,
+#nav-bar-center {
+	display: inline-block;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+a {
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+
+.nav-bar-line {
+	height: 0.1em;
+	background-color: #979797;
+}
+
+#nav-bar-left {
+	text-align: right;
+}
+
+#nav-bar-right {
+	text-align: left;
+}
+
+#nav-bar-center {
+	position: relative;
+}
+
+
+/*
+--------------
+HOME PROJECTS
+--------------
+*/
+
+#project-image-1 {
+	background-image: url(img/cover-image-1.jpg);
+}
+
+#project-image-2 {
+	background-image: url(img/cover-image-2.jpg);
+}
+
+#project-image-3 {
+	background-image: url(img/cover-image-3.jpg);
+}
+
+#home-projects {
+	text-align: center;
+}
+
+.project-image {
+	background-color: grey;
+	margin: auto;
+	background-position: center;
+}
+
+.project-client,
+.project-title,
+.project-description {
+	color: #979797;
+}
+
+.project-client {
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.project-title {
+	font-style: italic;	
+}
+
+
+/*
+--------------
+FOOTER
+--------------
+*/
+
+footer {
+	text-align: center;
+	margin: 3em auto;
+}
+
+.footer-bar-line {
+	height: 0.1em;
+	background-color: #979797;
+	width: 30em;
+	margin: auto;
+}
+
+#footer-socials {
+	margin-top: 2em;
+}
+
+.footer-social-link {
+	display: inline-block;
+	height: 3em;
+	width: 3em;
+	margin: 0 0.5em;
+}
+
+#footer-text {
+	color: #979797;
+}
+
+#footer-text-top {
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
+
+

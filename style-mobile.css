@@ -1,0 +1,97 @@
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+
+header {
+	margin-top: 2em;
+}
+
+#nav-bar-left,
+#nav-bar-right {
+	width: 9.5em;
+}
+
+.menu-items {
+	font-size: 1.2em;
+	letter-spacing: 0em;
+	line-height: 1.75em;
+}
+
+.nav-bar-line {
+	margin: 1em 0;
+}
+
+#nav-bar-spacer {
+	width: 10em;
+	height: 5em;
+}
+
+#nav-bar-center {
+	margin-top: -10em;
+	top: -1.5em;
+}
+
+#nav-bar-center img {
+	height: 7.5em;
+	width: 7.5em;
+}
+
+/*
+--------------
+HOME PROJECTS
+--------------
+*/
+
+
+#home-projects {
+	margin-top: 2.5em;
+}
+
+.project {
+	margin-bottom: 5em;
+}
+
+.project-image {
+	width: 100%;
+	height: 25em;
+	background-size: 120%;
+	background-repeat: no-repeat;
+}
+
+.project-text {
+	width: 30em;
+	margin: auto;
+}
+
+.project-client {
+	font-size: 2em;
+	letter-spacing: 0.25em;
+	margin-top: 0.75em;
+	line-height: 1.25em;
+}
+
+.project-title {
+	font-size: 1.4em;
+	letter-spacing: 0.15em;
+	margin-top: 0.5em;
+}
+
+.project-description {
+	margin-top: 1em;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+
+/*
+--------------
+FOOTER
+--------------
+*/
+
+#footer-text {
+	font-size: 0.8em;
+}
