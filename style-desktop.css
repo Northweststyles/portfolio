@@ -44,7 +44,8 @@ HOME PROJECTS
 */
 
 
-#home-projects {
+#home-projects,
+#print-projects {
 	margin-top: 5em;
 }
 
@@ -83,6 +84,62 @@ br {
 	margin-top: 1em;
 	font-size: 1.2em;
 	line-height: 2em;
+}
+
+
+
+
+
+.print-project {
+	margin-bottom: 10em;
+}
+
+.print-image-container {
+	width: 76em;
+	height: 33em;
+	margin-bottom: 2em;	
+}
+
+.print-image-container img {
+	height: 33em;
+}
+
+.print-image-container img {
+	display: inline-block;
+}
+
+.print-left {
+	float: left;
+}
+
+.print-right {
+	float: right;
+}
+
+.print-center {
+	margin: auto;
+}
+
+
+
+
+.bio-project {
+	height: 120em;
+}
+
+.bio-description {
+	width: 30em;
+	margin: 2em auto;
+}
+
+.bio-br {
+	display: block;
+}
+
+
+
+.contact-project {
+	height: 120em;
 }
 
 

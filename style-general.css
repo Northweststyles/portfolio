@@ -77,6 +77,11 @@ a:active {
   color: #E3CA96;
 }
 
+#current-page {
+	color: #E3CA96;
+	font-weight: 800;
+}
+
 
 /*
 --------------
@@ -153,7 +158,16 @@ HOME PROJECTS
 	background-image: url(img/cover-image-3.jpg);
 }
 
-#home-projects {
+#project-image-4 {
+	background-image: url(img/cover-image-4.jpg);
+}
+
+#project-image-5 {
+	background-image: url(img/cover-image-5.jpg);
+}
+
+#home-projects,
+#print-projects {
 	text-align: center;
 }
 
@@ -178,6 +192,25 @@ HOME PROJECTS
 	font-style: italic;	
 }
 
+.print-image-container {
+	margin: 0em auto;
+}
+
+.print-image-container img {
+	display: inline-block;
+}
+
+.print-left {
+	float: left;
+}
+
+.print-right {
+	float: right;
+}
+
+.print-center {
+	margin: auto;
+}
 
 /*
 --------------
